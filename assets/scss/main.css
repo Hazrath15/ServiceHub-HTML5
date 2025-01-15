@@ -79,4 +79,7 @@
 }
 /*---------------------------------
     typography css start 
----------------------------------*//*# sourceMappingURL=main.css.map */
+---------------------------------*/
+.example-class {
+  color: var(--st-common-black);
+}/*# sourceMappingURL=main.css.map */

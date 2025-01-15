@@ -1,0 +1,42 @@
+
+
+// font family
+$font-family: (
+    ff: (
+        body: "'HafferXH', sans-serif", 
+        heading: "'HafferXH', sans-serif",
+        p: "'HafferXH', sans-serif",
+        fontawesome: '"Font Awesome 6 Free"',
+    )
+);
+
+// font weight
+$font-scale: (
+    fw: (
+        normal: normal,
+        elight: 200,
+        light: 300,
+        regular: 400,
+        medium: 500,
+        sbold: 600,
+        bold: 700,
+        ebold: 800,
+        black: 900,
+    )
+);
+
+// font size
+$font-size: (
+    fz: (
+        body: 18.4px,
+        p: 18.4px,
+        h1: 70px,
+        h2: 53.5px,
+        h3: 43.087px,
+        h4: 29.1px,
+        h5: 28px,
+        h6: 20.9px,
+    )
+);
+
+

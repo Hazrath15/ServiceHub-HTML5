@@ -1,0 +1,465 @@
+@use 'utils'as *;
+
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Template Name – HTML5 Template
+    Author: SOFTZINO
+    Support: info@softzino.com
+    Description: Template Name  – HTML5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+    02. HEADER CSS
+
+
+
+**********************************************/
+
+
+
+
+/*----------------------------------------*/
+/*  01. THEME DEFAULT CSS START
+/*----------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HafferXH';
+    src: url(/assets/fonts/Haffer-normal-400-100.ttf) format('truetype'),
+    url(/assets/fonts/Haffer\ Medium-normal-500-100.ttf) format('truetype'),
+    url(/assets/fonts/Haffer\ SemiBold-normal-600-100.ttf) format('truetype'),
+    url(/assets/fonts/Haffer\ XH\ Medium-normal-500-100.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---------------------------------
+    typography css start 
+---------------------------------*/
+body {
+    font-family: var(--st-ff-body);
+    font-size: var(--st-fz-body);
+    font-weight: normal;
+    color: var(--st-text-body);
+    line-height: 27.56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: var(--st-ff-heading);
+    color: var(--st-heading-primary);
+    margin-top: 0px;
+    font-weight: var(--st-fw-medium);
+    @include transition(.3s);
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--st-ff-heading);
+    color: var(--st-heading-primary);
+    margin-top: 0px;
+    font-weight: var(--st-fw-regular);
+    @include transition(.3s);
+}
+
+h1 {
+    font-size: var(--st-fz-h1);
+    line-height: 75.1px;
+    letter-spacing: -2.088px;
+    @media #{$xl}{
+        font-size: 65px;
+    }
+    @media #{$lg,$md}{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    @media #{$sm,$xs}{
+        font-size: 38px;
+        line-height: 45px;
+    }
+}
+
+h2 {
+    font-size: var(--st-fz-h2);
+    line-height: 50.8px;
+    @media #{$lg,$md}{
+        font-size: 48px;
+        line-height: 55px;
+    }
+    @media #{$sm,$xs}{
+        font-size: 37px;
+        line-height: 45px;
+    }
+}
+
+h3 {
+    font-size: var(--st-fz-h3);
+    line-height: 38.791px;
+    @media #{$lg,$md}{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    @media #{$sm,$xs}{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+h4 {
+    font-size: var(--st-fz-h4);
+    line-height: 37.59px;
+    @media #{$lg,$md}{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    @media #{$sm,$xs}{
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+h5 {
+    font-size: var(--st-fz-h5);
+    line-height: 38px;
+    @media #{$lg,$md}{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    @media #{$sm,$xs}{
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+h6 {
+    font-size: var(--st-fz-h6);
+    line-height: 29.24px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-family: var(--st-ff-p);
+    font-size: var(--st-fz-p);
+    font-weight: var(--st-fw-normal);
+    color: var(--st-text-body);
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+a,
+.btn,
+button,
+span,
+p,
+i,
+input,
+select,
+textarea,
+li,
+img,
+svg path,
+*::after,
+*::before,
+.transition-3,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include transition(.3s);
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: inherit;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+    border: 0
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+input {
+    outline: none;
+}
+
+input[type="color"] {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-radius: 50%;
+}
+
+*::-moz-selection {
+    background: var(--st-common-black);
+    color: var(--st-common-white);
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: var(--st-common-black);
+    color: var(--st-common-white);
+    text-shadow: none;
+}
+
+::selection {
+    background: var(--st-common-black);
+    color: var(--st-common-white);
+    text-shadow: none;
+}
+
+
+*::-moz-placeholder {
+    color: var(--st-common-black);
+    font-size: var(--st-fz-body);
+    opacity: 1;
+}
+
+*::placeholder {
+    color: var(--st-common-black);
+    font-size: var(--st-fz-body);
+    opacity: 1;
+}
+
+/*---------------------------------
+    common classes css start 
+---------------------------------*/
+
+.row-reverse-md{
+    @media #{$md,$sm,$xs}{
+      flex-direction: column-reverse;
+    }
+  }
+
+.w-img {
+    & img {
+        width: 100%;
+    }
+}
+
+.m-img {
+    & img {
+        max-width: 100%;
+    }
+}
+
+.fix {
+    overflow: hidden
+}
+
+.clear {
+    clear: both;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-11 {
+    z-index: 11;
+}
+
+.overflow-y-visible {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.include-bg {
+    @include background();
+}
+
+
+
+/*----------------------------------------
+    Body Overlay 
+-----------------------------------------*/
+
+.body-overlay {
+    background-color: rgba($color: var(--st-common-black), $alpha: .5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(.3s);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.body-overlay.opened {
+    opacity: 1;
+    visibility: visible;
+}
+
+.offcanvas__area {
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -300px; /* Hidden initially */
+    transition: right 0.3s;
+    color: white;
+    padding: 20px;
+}
+.offcanvas__area.opened {
+    right: 0; /* Slide in when opened */
+}
+
+/*----------------------------------------
+    Progress Wrap
+-----------------------------------------*/
+
+.progress-wrap {
+    @media #{$xs} {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+
+// basic pagination
+
+.basic-pagination {
+    & ul {
+        & li {
+            display: inline-block;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            & a,
+            & span {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                line-height: 46px;
+                text-align: center;
+                @include border-radius(7px);
+                border: 2px solid #f1f1f1;
+                font-size: 18px;
+                font-weight: 600;
+
+                &:hover,
+                &.current {
+                    background: var(--st-theme-1);
+                    border-color: var(--st-theme-1);
+                    color: var(--st-common-white);
+                }
+            }
+        }
+    }
+}
+
+
+// nice select arrow
+
+.nice-select {
+    &::after {
+        border: none;
+        background-color: transparent;
+        @include transform(translateY(-50%));
+        margin-top: 0;
+        top: 21px;
+        right: 0;
+        content: '\f107';
+        font-family: var(--st-ff-fontawesome);
+        transform-origin: center;
+        color: var(--st-common-black);
+        font-weight: 900;
+        height: auto;
+        width: auto;
+        font-size: 14px;
+    }
+
+    &.open {
+        &::after {
+            @include transform(translateY(-50%) rotate(-180deg));
+            ;
+        }
+    }
+}

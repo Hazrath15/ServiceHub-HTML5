@@ -1,3 +1,130 @@
+@charset "UTF-8";
+:root {
+  /**
+  @font family declaration
+  */
+  --st-ff-body: 'HafferXH', sans-serif;
+  --st-ff-heading: 'HafferXH', sans-serif;
+  --st-ff-p: 'HafferXH', sans-serif;
+  --st-ff-fontawesome: "Font Awesome 6 Free";
+  /**
+  @color declaration
+  */
+  --st-theme-primary: #DFEFD7;
+  --st-theme-secondary: #FAE5D1;
+  --st-heading-primary: #1E1515;
+  --st-common-white: #ffffff;
+  --st-common-black: #1E1515;
+  --st-grey-1: #F9F8F5;
+  --st-grey-2: #D0D0D0;
+  --st-text-body: #2C2323;
+  --st-border-1: #D0D0D0;
+  /**
+  @font weight declaration
+  */
+  --st-fw-normal: normal;
+  --st-fw-elight: 200;
+  --st-fw-light: 300;
+  --st-fw-regular: 400;
+  --st-fw-medium: 500;
+  --st-fw-sbold: 600;
+  --st-fw-bold: 700;
+  --st-fw-ebold: 800;
+  --st-fw-black: 900;
+  /**
+  @font size declaration
+  */
+  --st-fz-body: 18.4px;
+  --st-fz-p: 18.4px;
+  --st-fz-h1: 70px;
+  --st-fz-h2: 53.5px;
+  --st-fz-h3: 43.087px;
+  --st-fz-h4: 29.1px;
+  --st-fz-h5: 28px;
+  --st-fz-h6: 20.9px;
+}
+
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Template Name – HTML5 Template
+    Author: SOFTZINO
+    Support: info@softzino.com
+    Description: Template Name  – HTML5 Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+/************ TABLE OF CONTENTS ***************
+
+    01. THEME DEFAULT CSS
+    02. HEADER CSS
+
+
+
+**********************************************/
+/*----------------------------------------*/
+/*  01. THEME DEFAULT CSS START
+/*----------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "HafferXH";
+  src: url(/assets/fonts/Haffer-normal-400-100.ttf) format("truetype"), url(/assets/fonts/Haffer\ Medium-normal-500-100.ttf) format("truetype"), url(/assets/fonts/Haffer\ SemiBold-normal-600-100.ttf) format("truetype"), url(/assets/fonts/Haffer\ XH\ Medium-normal-500-100.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*---------------------------------
+    typography css start 
+---------------------------------*/
+:root {
+  /**
+  @font family declaration
+  */
+  --st-ff-body: 'HafferXH', sans-serif;
+  --st-ff-heading: 'HafferXH', sans-serif;
+  --st-ff-p: 'HafferXH', sans-serif;
+  --st-ff-fontawesome: "Font Awesome 6 Free";
+  /**
+  @color declaration
+  */
+  --st-theme-primary: #DFEFD7;
+  --st-theme-secondary: #FAE5D1;
+  --st-heading-primary: #1E1515;
+  --st-common-white: #ffffff;
+  --st-common-black: #1E1515;
+  --st-grey-1: #F9F8F5;
+  --st-grey-2: #D0D0D0;
+  --st-text-body: #2C2323;
+  --st-border-1: #D0D0D0;
+  /**
+  @font weight declaration
+  */
+  --st-fw-normal: normal;
+  --st-fw-elight: 200;
+  --st-fw-light: 300;
+  --st-fw-regular: 400;
+  --st-fw-medium: 500;
+  --st-fw-sbold: 600;
+  --st-fw-bold: 700;
+  --st-fw-ebold: 800;
+  --st-fw-black: 900;
+  /**
+  @font size declaration
+  */
+  --st-fz-body: 18.4px;
+  --st-fz-p: 18.4px;
+  --st-fz-h1: 70px;
+  --st-fz-h2: 53.5px;
+  --st-fz-h3: 43.087px;
+  --st-fz-h4: 29.1px;
+  --st-fz-h5: 28px;
+  --st-fz-h6: 20.9px;
+}
+
 :root {
   /**
   @font family declaration

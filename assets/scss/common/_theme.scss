@@ -41,8 +41,24 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Inter';
+    src: url(/assets/fonts/Inter_18pt-Regular.ttf) format('truetype'),
+    url(/assets/fonts/Haffer\Inter_18pt-SemiBold.ttf) format('truetype'),
+    url(/assets/fonts/Inter_24pt-Black.ttf) format('truetype'),
+    url(/assets/fonts/Inter_24pt-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*---------------------------------
     typography css start 
 ---------------------------------*/
 
+body {
+    font-family: var(--st-ff-body);
+}
+.example-class {
+    font-family: 'Inter', 'sans-serif';
+    color: black !important;
+    font-weight: 400;
+}

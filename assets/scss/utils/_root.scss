@@ -40,4 +40,14 @@
             --st-#{$fz}-#{$shade}: #{$value};
         }
     }
+
+    /**
+    @font size declaration
+    */
+    
+    @each $lh, $shades in $line-height {
+        @each $shade, $value in $shades {
+            --st-#{$lh}-#{$shade}: #{$value};
+        }
+    }
 }

@@ -3,9 +3,9 @@
 // font family
 $font-family: (
     ff: (
-        body: "'HafferXH', sans-serif", 
-        heading: "'HafferXH', sans-serif",
-        p: "'HafferXH', sans-serif",
+        body: "'Inter', sans-serif", 
+        heading: "'Mulish', sans-serif",
+        p: "'Inter', sans-serif",
         fontawesome: '"Font Awesome 6 Free"',
     )
 );
@@ -28,15 +28,28 @@ $font-scale: (
 // font size
 $font-size: (
     fz: (
-        body: 18.4px,
-        p: 18.4px,
+        body: 16px,
+        p: 16px,
         h1: 70px,
-        h2: 53.5px,
-        h3: 43.087px,
-        h4: 29.1px,
-        h5: 28px,
-        h6: 20.9px,
+        h2: 48px,
+        h3: 36px,
+        h4: 28px,
+        h5: 24px,
+        h6: 20px,
     )
 );
 
+// line height
+$line-height: (
+    lh: (
+        body: 26px,
+        p: 26px,
+        h1: 80px,
+        h2: 55px,
+        h3: 46px,
+        h4: normal,
+        h5: 34px,
+        h6: 28px,
+    )
+);
 

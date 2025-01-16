@@ -1,1 +1,126 @@
-// @import '../utils';
+.p-120 {
+    padding: 120px 0;
+    @media #{ $md } {
+        padding: 80px 0;
+    }
+    @media #{ $sm } {
+        padding: 50px 0;
+    }
+}
+.pt-120 {
+    padding-top: 120px;
+    @media #{ $md } {
+        padding-top: 80px;
+    }
+    @media #{ $sm } {
+        padding-top: 50px;
+    }
+}
+.pb-120 {
+    padding-bottom: 120px;
+    @media #{ $md } {
+        padding-bottom: 80px;
+    }
+    @media #{ $sm } {
+        padding-bottom: 50px;
+    }
+}
+.p-110 {
+    padding: 110px 0;
+    @media #{ $md } {
+        padding: 80px 0;
+    }
+    @media #{ $sm } {
+        padding: 50px 0;
+    }
+}
+.pt-110 {
+    padding-top: 110px;
+    @media #{ $md } {
+        padding-top: 80px;
+    }
+    @media #{ $sm } {
+        padding-top: 50px;
+    }
+}
+.pb-110 {
+    padding-bottom: 110px;
+    @media #{ $md } {
+        padding-bottom: 80px;
+    }
+    @media #{ $sm } {
+        padding-bottom: 50px;
+    }
+}
+.p-100 {
+    padding: 100px 0;
+    @media #{ $md } {
+        padding: 80px 0;
+    }
+    @media #{ $sm } {
+        padding: 50px 0;
+    }
+}
+.pt-100 {
+    padding-top: 100px;
+    @media #{ $md } {
+        padding-top: 80px;
+    }
+    @media #{ $sm } {
+        padding-top: 50px;
+    }
+}
+.pb-100 {
+    padding-bottom: 100px;
+    @media #{ $md } {
+        padding-bottom: 80px;
+    }
+    @media #{ $sm } {
+        padding-bottom: 50px;
+    }
+}
+.p-60{
+    padding: 60px 0;
+    @media #{ $sm } {
+        padding: 40px 0;
+    }
+}
+.pt-60{
+    padding-top: 60px;
+    @media #{ $sm } {
+        padding-top: 40px;
+    }
+}
+.pb-60{
+    padding-bottom: 60px;
+    @media #{ $sm } {
+        padding-bottom: 40px;
+    }
+}
+.m-80 {
+    margin: 80px 0;
+    @media #{ $md} {
+        margin: 50px 0;
+    }
+    @media #{ $sm } {
+        margin: 30px 0;
+    }
+}
+.mt-80 {
+    margin-top: 80px;
+    @media #{ $md} {
+        margin-top: 50px;
+    }
+    @media #{ $sm } {
+        margin-top: 30px;
+    }
+}
+.mb-80 {
+    margin-bottom: 80px;
+    @media #{ $md} {
+        margin-bottom: 50px;
+    }
+    @media #{ $sm } {
+        margin-bottom: 30px;
+    }
+}

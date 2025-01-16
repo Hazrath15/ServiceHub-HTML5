@@ -1,1 +1,21 @@
-// @import '../../utils';
+// Header V1 Style Start Here 
+
+.header-main-wrapper {
+    background: var(--st-home-secondary);
+    .header-main {
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 60px;
+    }
+    .header-left-area {
+        background: burlywood;
+    }
+    .header-right-area {
+        background: blueviolet;
+    }
+}
+.header-container {
+    max-width: 1374px;
+    width: 100%;
+    height: 80px;
+}

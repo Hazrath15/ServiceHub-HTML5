@@ -1,24 +1,38 @@
 $colors: (
-    theme: (
-        primary: #DFEFD7,
-        secondary: #FAE5D1,
+    home: (
+        primary: #FD8F14,
+        secondary: #181A17,
+    ),
+    home-2: (
+        primary: #336AEA,
+        secondary: #FFF203,
+    ),
+    home-3: (
+        primary: #2371FF,
+        secondary: #FF5E14,
+    ),
+    sub-heading: (
+        primary: #336AEA,
+        secondary: #FF5E14,
     ),
     heading: (
-        primary: #1E1515,
+        primary: #181A17,
+        secondary: #0A3846,
+        ternery: #062E39,
     ),
     common: (
         white: #ffffff,
-        black: #1E1515,
+        black: #696969,
     ),
     grey: (
-        1:#F9F8F5,
-        2:#D0D0D0,
-
+        1:#F2F2F212,
+        2:rgba(219, 219, 219, 0.15),
     ),
     text: (
-        body:#2C2323,
+        body:#747474,
     ),
     border: (
-        1: #D0D0D0,
+        1: #DDDDDD,
+        2: #E2E4ED,
     )
 );

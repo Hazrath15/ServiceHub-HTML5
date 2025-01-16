@@ -96,6 +96,29 @@ body {
   font-weight: 400;
 }
 
+.btn {
+  background: none;
+  border: 2px solid var(--st-common-black);
+  padding: 0.8em 1em;
+  margin: 1em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-transform: uppercase;
+  color: var(--st-common-black);
+  letter-spacing: 2.2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transform: translateY(0);
+  transition: all 0.5s linear;
+}
+
+.window_slide:hover {
+  box-shadow: inset 8rem 0 0 0 var(--st-theme-primary), inset -8rem 0 0 0 var(--st-theme-primary);
+  color: var(--hover-b);
+  transform: translateY(-0.5rem);
+}
+
 .example-class {
   color: var(--st-theme-primary);
 }/*# sourceMappingURL=main.css.map */
